@@ -1,0 +1,17 @@
+{
+  "name": "http-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "swc src --out-dir dist --watch",
+    "build": "swc src --out-dir dist",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.52",
+    "@swc/core": "^1.2.118",
+    "@types/node": "^16.11.11",
+    "chokidar": "^3.5.2"
+  }
+}
